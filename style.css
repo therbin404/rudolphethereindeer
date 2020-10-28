@@ -48,7 +48,7 @@ nav ul {
 
 .presentation {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin: 100px;
 }
@@ -57,7 +57,12 @@ nav ul {
     width: 40%;
 }
 
-.presentation img {
+.presentation .image{
+    height: 400px;
+    width: 500px;
     border-radius: 40px;
     transform: skew(350deg, 356deg);
+    background-image: url('images/promo.jpg');
+    background-size: cover;
+    background-position: center;
 }
