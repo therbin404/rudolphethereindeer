@@ -1,0 +1,40 @@
+body,
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgba(102,102,102,1);
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: rgba(186, 158, 158, 1);
+    text-decoration: none;
+}
+
+nav {
+    background-color: rgba(241,111,57,1);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+nav ul {
+    margin-right: 5%;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
