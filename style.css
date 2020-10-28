@@ -33,6 +33,10 @@ nav ul {
     align-items: center;
 }
 
+p {
+    color: white;
+}
+
 .logo img{
     width: 90px;
     height: 90px;
@@ -50,7 +54,7 @@ nav ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 100px;
+    margin: 5% 10%;
 }
 
 .presentation .description {
@@ -59,10 +63,24 @@ nav ul {
 
 .presentation .image{
     height: 400px;
-    width: 500px;
+    width: 35%;
     border-radius: 40px;
     transform: skew(350deg, 356deg);
     background-image: url('images/promo.jpg');
     background-size: cover;
     background-position: center;
+}
+
+.rounds {
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(90deg, rgba(102,102,102,1) 42%, rgba(210,209,209,1) 58%);
+}
+
+.round {
+    width: 145px;
+    height: 130px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: rgba(196,196,196,1);
 }
