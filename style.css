@@ -44,5 +44,20 @@ nav ul {
     background-image: url('images/header.jpg');
     background-size: cover;
     background-position: top center;
-    
+}
+
+.presentation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px;
+}
+
+.presentation .description {
+    width: 40%;
+}
+
+.presentation img {
+    border-radius: 40px;
+    transform: skew(350deg, 356deg);
 }
