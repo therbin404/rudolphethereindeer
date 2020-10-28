@@ -84,3 +84,29 @@ p {
     border: 1px solid black;
     background-color: rgba(196,196,196,1);
 }
+
+.plan {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10% 5%;
+    height: 544px;
+    background-image: url('images/backgroundshape.png');
+    background-size: 100% 100%;
+    border-radius: 20px;
+}
+
+.plan .map {
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.map img {
+    height: 100%;
+}
+
+.plan .description {
+    width: 30%;
+}
