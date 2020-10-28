@@ -25,16 +25,24 @@ nav {
     align-items: center;
 }
 
-.logo img{
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-}
-
 nav ul {
     margin-right: 5%;
     width: 50%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.logo img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.jumbotron {
+    height: 461px;
+    background-image: url('images/header.jpg');
+    background-size: cover;
+    background-position: top center;
+    
 }
