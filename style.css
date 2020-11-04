@@ -37,6 +37,33 @@ p {
     color: white;
 }
 
+footer {
+  background-color: rgba(241,111,57,1);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+}
+
+footer .round {
+  border: 2px solid black;
+  width: 100px;
+  height: 100px;
+}
+
+footer li {
+  margin: 50px 0;
+}
+
+footer li:first-child,
+footer li:last-child {
+  margin: 0;
+}
+
+footer a {
+  color: black;
+}
+
 .logo img{
     width: 90px;
     height: 90px;
@@ -109,4 +136,92 @@ p {
 
 .plan .description {
     width: 30%;
+}
+
+.cat {
+  background-image: url('images/bg_second_section.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 544px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cat .description {
+  width: 20%;
+}
+
+.cat .image {
+  width: 30%;
+}
+
+.cat .image img {
+  width: 100%;
+}
+
+.pets {
+  margin: 150px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pets .description {
+  width: 15%;
+}
+
+.pets .description {
+  width: 20%;
+}
+
+.pets .image {
+  width: 30%;
+}
+
+.pets .image img {
+  width: 100%;
+}
+
+.laboratory {
+  background-image: url('images/bg_laboratory.svg');
+  background-size: 100%;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  height: 913px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.laboratory .description {
+  width: 20%;
+}
+
+.laboratory .image {
+  width: 30%;
+}
+
+.laboratory .image img {
+  width: 100%;
+}
+
+.photos {
+  background-image: url('images/bg_images_section.svg');
+  background-size: 100%;
+  background-position: top left;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 1500px;
+}
+
+.photos .image img {
+  width: 100%;
+  margin: 120px 0;
+}
+
+.photos > div {
+  width: 35%;
 }
